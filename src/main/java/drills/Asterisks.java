@@ -14,6 +14,7 @@ public class Asterisks {
      * @return a string of n asterisks — {@code ""} when n is 0
      */
     public String asterisks(int n) {
+        //Start
 
         return null;
 
