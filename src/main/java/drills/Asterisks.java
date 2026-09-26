@@ -17,7 +17,7 @@ public class Asterisks {
         //Start
         String numofasterisks = "";
         for (int i = 1; i <= n; i++) {
-            numofasterisks += numofasterisks;
+            numofasterisks = numofasterisks + "*";
         }
         return numofasterisks;
 
