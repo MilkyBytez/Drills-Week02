@@ -15,8 +15,11 @@ public class Asterisks {
      */
     public String asterisks(int n) {
         //Start
-
-        return null;
+        String numofasterisks = "";
+        for (int i = 1; i <= n; i++) {
+            numofasterisks += numofasterisks;
+        }
+        return numofasterisks;
 
     }
 }
